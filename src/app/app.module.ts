@@ -1,10 +1,12 @@
-import { BrowserModule } from '@angular/platform-browser';
-import { NgModule } from '@angular/core';
+import { BrowserModule } from '@angular/platform-browser'; // check
+import { NgModule } from '@angular/core'; // check
+import { AppComponent } from './app.component'; // check
 
-
-import { AppComponent } from './app.component';
-
-
+/* Decorator post processing - maps components in the build
+   Declarations registers the component, avoids "custom undefined HTML"
+   BrowserModule makes the app available in the browser.
+   Bootstrap starts AppComponent at launch
+*/
 @NgModule({
   declarations: [
     AppComponent
@@ -15,4 +17,7 @@ import { AppComponent } from './app.component';
   providers: [],
   bootstrap: [AppComponent]
 })
-export class AppModule { }
+
+export class AppModule { 
+
+} // check
