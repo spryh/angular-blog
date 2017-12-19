@@ -1,6 +1,6 @@
-import { BrowserModule } from '@angular/platform-browser'; // check
-import { NgModule } from '@angular/core'; // check
-import { AppComponent } from './app.component'; // check
+import { BrowserModule } from '@angular/platform-browser' // check
+import { NgModule } from '@angular/core' // check
+import { AppComponent } from './app.component' // check
 
 /* Decorator post processing - maps components in the build
    Declarations registers the component, avoids "custom undefined HTML"
@@ -18,6 +18,6 @@ import { AppComponent } from './app.component'; // check
   bootstrap: [AppComponent]
 })
 
-export class AppModule { 
+export class AppModule {
 
 } // check
