@@ -1,0 +1,32 @@
+figure {
+    margin: 0;
+    border: 1px solid #000;
+    position: relative
+    ;
+}
+
+figcaption {
+    background-color: rgba(0,0,0,0.5);
+    color: #fff;
+    font-size: 1.2em;
+    padding: 10px;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+
+}
+
+img {
+    display: block;
+    width: 100%;
+    height: auto;
+}
+
+/* host pseudoclass CSS3.0 allows us to style the app-entry selector
+app-selector is assumed to be an inline style (not take up the page) and thus needs to be called out as block */
+
+:host {
+    padding: 1em;
+    display: block;
+}
