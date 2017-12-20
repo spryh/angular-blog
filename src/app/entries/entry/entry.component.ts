@@ -8,8 +8,14 @@ import {Component} from '@angular/core'
 
 export class EntryComponent {
 
-title: string ='My First Photo'
-photo: string ='http://placehold.it/800x500?text=Angular Basics'
-description: string = 'A decription of my first photo'
+title: 'My First Photo'
+photo = 'http://placehold.it/800x500?text=Angular Basics'
+description: 'A decription of my first photo'
+comments = [
+    {name: 'John', text: 'A comment'},
+    {name: 'Jim', text: 'A comment'},
+    {name: 'Jen', text: 'A comment'}    
+]
+
 
 }

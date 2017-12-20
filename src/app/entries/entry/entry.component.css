@@ -30,3 +30,11 @@ app-selector is assumed to be an inline style (not take up the page) and thus ne
     padding: 1em;
     display: block;
 }
+
+.actions {
+    padding: 1em 0;
+}
+
+.liked{
+    color: red;
+}
